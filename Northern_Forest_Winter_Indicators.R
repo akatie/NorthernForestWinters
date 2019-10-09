@@ -28,6 +28,7 @@ library(stringr)
 library(tidyr)
 library(varhandle)
 
+#options(stringsAsFactors = FALSE)
 #read data
 metfin <- read.table("metfin.csv", head = TRUE, sep = ",", na.strings=c("NA", "NAN"))
 

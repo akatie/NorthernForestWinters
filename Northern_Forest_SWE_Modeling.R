@@ -33,7 +33,7 @@ library(plyr)
 library(hydromad)
 library(matrixStats)
 library(zoo)
-
+#install.packages("hydromad", repos="http://hydromad.catchment.org")
 #read data
 metsub <- read.table("daily_station_data.csv", head = TRUE, sep = ",", na.strings=c("NA", "NAN"))
 
